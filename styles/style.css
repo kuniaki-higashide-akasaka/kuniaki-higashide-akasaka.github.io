@@ -94,3 +94,14 @@ a {
 .center-message {
     margin-top : 25vh;
 }
+
+@media screen and (orientation: portrait) {
+    html, body {
+        font-size : 55%;
+    }
+}
+@media screen and (orientation: landscape) {
+    .center-message {
+        height : 20%;
+    }
+}
