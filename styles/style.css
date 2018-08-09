@@ -95,13 +95,16 @@ a {
     margin-top : 25vh;
 }
 
-@media screen and (orientation: portrait) {
-    html, body {
-        font-size : 55%;
+/* iPad縦 / iPhone 7/6 Plus横 */
+@media screen and (max-width: 768px) and (orientation:landscape) {
+    .sp-hdn{
+        display : none;
     }
 }
-@media screen and (orientation: landscape) {
-    .center-message {
-        height : 20%;
+
+/* iPhone 7/6縦 */
+@media screen and (max-width: 375px) and (orientation:portrait)  {
+    .sp-hdn{
+        display : none;
     }
 }
