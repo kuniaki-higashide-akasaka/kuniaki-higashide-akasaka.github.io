@@ -118,7 +118,7 @@ a {
 /* スマホ 縦 */
 @media screen and (max-width: 480px) {
     html, body {
-        font-size : 58%;
+        font-size : 48%;
     }
     .sp-hdn{
         display : none;
