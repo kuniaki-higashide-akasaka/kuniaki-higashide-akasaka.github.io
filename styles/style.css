@@ -105,9 +105,14 @@ a {
 
 /* スマホ 横 */
 @media screen and (max-width: 768px){
-    .sp-hdn {
+    /* .sp-hdn {
         display : none;
+    } */
+
+    .center-message {
+        margin-top : 10vh;
     }
+
 }
 
 /* スマホ 縦 */
