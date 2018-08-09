@@ -95,15 +95,22 @@ a {
     margin-top : 25vh;
 }
 
-/* iPad縦 / iPhone 7/6 Plus横 */
-@media screen and (max-width: 768px) and (orientation:landscape) {
-    .sp-hdn{
+/* タブレット縦 */
+@media screen and (max-width: 800px){
+    /*.sp-hdn {
+        display : none;
+    }*/
+}
+
+/* スマホ 横 */
+@media screen and (max-width: 768px){
+    .sp-hdn {
         display : none;
     }
 }
 
-/* iPhone 7/6縦 */
-@media screen and (max-width: 375px) and (orientation:portrait)  {
+/* スマホ 縦 */
+@media screen and (max-width: 480px) {
     .sp-hdn{
         display : none;
     }
