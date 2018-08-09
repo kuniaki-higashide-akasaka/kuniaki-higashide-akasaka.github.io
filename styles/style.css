@@ -94,3 +94,18 @@ a {
 .center-message {
     margin-top : 25vh;
 }
+
+@media (orientation: portrait) {
+    html, body {
+        font-size : 55%;
+    }
+    
+    .center-message {
+        margin-top : 0%;
+    }
+}
+@media (orientation: landscape) {
+    .center-message {
+        margin-top : 0%;
+    }
+}
