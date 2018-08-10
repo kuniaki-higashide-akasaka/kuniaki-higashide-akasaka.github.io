@@ -133,6 +133,7 @@ a {
 
     h2{
         font-size : 2.1rem;
+        margin    : 1rem;
     }
     
     .company-name {
@@ -140,6 +141,10 @@ a {
     }
 
     .center-message {
+        margin-top : 5vh;
+    }
+
+    .sp-top-links {
         margin-top : 10vh;
     }
 
@@ -151,7 +156,7 @@ a {
         display         : block;
         text-decoration : none;
         text-shadow     : 0 -1px #1a6ea0;
-        margin          : 2rem auto;
+        margin          : 3rem auto;
         padding         : 1rem 0;
         width           : 50%;
     }
